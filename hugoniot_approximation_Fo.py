@@ -3,7 +3,7 @@ from pdb import set_trace
 from scipy import interpolate
 import matplotlib.pyplot as plt
 pressure = 240
-df = pd.read_csv("MgO_hugonoit.csv")
+df = pd.read_csv("Forsterite hugonoit.csv")
 plt.plot(df.pressure,df.density,'b-',label='data')
 #plt.show()
 f = interpolate.interp1d(df.pressure,df.density, fill_value = 'extrapolate')
@@ -18,3 +18,4 @@ plt.grid('--')
 plt.legend()
 plt.show()
 print(f(pressure))
+
