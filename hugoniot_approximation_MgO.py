@@ -2,7 +2,7 @@ import pandas as pd
 from pdb import set_trace
 from scipy import interpolate
 import matplotlib.pyplot as plt
-pressure = 240
+pressure = 200
 df = pd.read_csv("MgO_hugonoit.csv")
 plt.plot(df.pressure,df.density,'b-',label='data')
 #plt.show()

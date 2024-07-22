@@ -10,7 +10,7 @@ def dspacing(rho,x):
     h = x[0]
     k = x[1]
     l = x[2]
-    return math.sqrt((8*40.304/rho)**(2/3)/(eval(h)**2+eval(k)**2+eval(l)**2))
+    return math.sqrt((8*25.939/rho)**(2/3)/(eval(h)**2+eval(k)**2+eval(l)**2))
 df = pd.read_csv("LiF hugonoit.csv")
 for x in reflections:
     plt.plot(df.pressure, df.density.apply(dspacing, args = (x,)), label = x)
