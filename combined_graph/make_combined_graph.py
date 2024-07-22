@@ -12,10 +12,10 @@ aIII = 2.640
 bIII = 8.596
 cIII = 9.04
 pressure = 260
-reflections_MgO = [["111",2.6],["200",1],["220",1]]
-reflections_Fo = [["011",3],["020",1.26],["021",0.93],["111",1.1]]
-reflections_FoIII = [["002",0.95],["020",3],["012",0.78],["100",0.63]]
-points = {"35":[2.461,0.001,"red"],"37":[2.351, 0.001,"darkorange"],"42":[2.059,0.002,"darkgoldenrod"],"50":[1.743,0.001,"darkgreen"],"60":[1.491,0.001,"blue"],"72":[1.249,0.001,"purple"],"76":[1.205,0.0002,"deeppink"]}
+reflections_MgO = [["111",1.8],["200",1],["220",1]]
+reflections_Fo = [["020",2],["110",2.75],["130",1]]
+reflections_FoIII = [["020",2.5],["022",1],["110",1]]
+points = {"35":[2.461,0.001,"silver"],"42":[2.059,0.002,"crimson"],"50":[1.743,0.001,"darkorange"],"60":[1.491,0.001,"darkgreen"],"72":[1.249,0.001,"blue"],"76":[1.205,0.0002,"silver"]}
 def dspacing_cubic(rho,x,orientation,m):
     h = x[0]
     k = x[1]
@@ -50,6 +50,6 @@ plt.legend(loc = 'upper right')
 plt.title("d-spacing MgO B1, Fo, Fo III")
 plt.xlabel("pressure (GPa)")
 plt.ylabel("d-spacing (a)")
-plt.savefig("combined_graph_dspacing.png")
+plt.savefig("combined_graph_dspacing.png", dpi = 600)
 plt.show()
 
