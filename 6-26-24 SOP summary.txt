@@ -1,2 +1,0 @@
-SOP summary:
-The SOP (Streaked Optical Pyrometer) is an instrument to determine the temperature of the sample by measuring the spectral radiance (amount of photons emitted). It also helps VISAR determine when shock breakout occurs.

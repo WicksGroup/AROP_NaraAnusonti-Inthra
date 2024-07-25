@@ -1,0 +1,16 @@
+Summary of Materials and Methods of MgO paper:
+
+Sample Preparation:
+There was a polyimide ablator, high purity MgO crystals with a thin layer of Al to enhance reflectivity, and a quartz layer for impedance matching.
+
+Laser configuration:
+The laser pulses were focused to a 1.1/0.8 mm diameter spot on the polyimide and by varying laser intensity, the pressure systematically increased in the MgO from 176 to 634 GPa.
+
+XRD measurements:
+The laser also generates Cu plasma, which diffracts X-rays that are picked up by the IP detectors. The output from those detectors are then aligned using the known diffraction peaks of the Ta pinhole.
+
+Normalized diffraction intensity:
+The diffraction intensity is normalized by accounting for variations in x-ray source and in the compressed sample volume, along with preforming a background subtraction.
+
+Forward model for XRD texture analysis:
+REWRITE LATER

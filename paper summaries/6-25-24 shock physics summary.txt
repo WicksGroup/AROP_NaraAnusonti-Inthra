@@ -1,0 +1,2 @@
+shock physics summary:
+The purpose of shock physics is to determine and study the physics of materials under high pressures and temperatures. Shock physics can be used for thermodynamic properties, geophysics, planetary science, spectroscopy, and explosives detonation.

@@ -33,9 +33,9 @@ def dspacing_orthorhombic(rho,x,a0,b0,c0,m):
     b = b0/p
     c = c0/p
     return 1/math.sqrt(eval(h)**2/a**2+eval(k)**2/b**2+eval(l)**2/c**2)
-df_MgO = pd.read_csv("MgO_hugonoit.csv")
+df_MgO = pd.read_csv("MgO_hugoniot_better.csv")
 df_LiF = pd.read_csv("LiF hugonoit.csv")
-df_Fo = pd.read_csv("Forsterite hugonoit.csv")
+df_Fo = pd.read_csv("forsterite_hugoniot_root.csv")
 for x in reflections_MgO:
     plt.plot(df_MgO.pressure, df_MgO.density.apply(dspacing_cubic, args = (x[0],6,m_MgO,)), label = f"MgO B1, {x[0]}", lw = x[1], c = "cornflowerblue")
 for x in reflections_Fo:
