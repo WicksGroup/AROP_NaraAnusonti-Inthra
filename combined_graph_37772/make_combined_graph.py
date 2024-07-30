@@ -62,6 +62,9 @@ for key in points.keys():
     mypoints = points[key]
     plt.scatter(pressure,mypoints[0], c = mypoints[2], marker = "d")
     plt.errorbar(pressure, mypoints[0], yerr = mypoints[1], ecolor = "black")
+plt.axhline(y=2.327, c = "sandybrown", label = "LiF, 111")
+plt.axhline(y=2.015, c = "sandybrown", label = "LiF, 200")
+plt.axhline(y=1.425, c = "sandybrown", label = "LiF, 220")
 plt.legend(loc = 'upper right')
 plt.title("d-spacing MgO B1, Fo, Fo III")
 plt.xlabel("pressure (GPa)")
