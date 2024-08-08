@@ -22,7 +22,7 @@ def dspacing_cubic(rho,x,orientation,m):
     h = x[0]
     k = x[1]
     l = x[2]
-    return math.sqrt((orientation*m/rho)**(2/3)/(eval(h)**2+eval(k)**2+eval(l)**2))
+    return math.sqrt((orientation*m*1.661/rho)**(2/3)/(eval(h)**2+eval(k)**2+eval(l)**2))
 def dspacing_orthorhombic(rho,x,a0,b0,c0,m):
     v0 = a0*b0*c0
     h = x[0]
